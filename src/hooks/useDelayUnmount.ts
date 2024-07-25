@@ -4,7 +4,7 @@ export default function useDelayUnmount(isMounted: boolean, delayTime: number) {
   const [isShown, setIsShown] = useState(false);
 
   useEffect(() => {
-    let timeoutId: number;
+    let timeoutId: NodeJS.Timeout;
 
     if (isMounted && !isShown) {
       setIsShown(true);
