@@ -1,0 +1,100 @@
+.typeMain .mainText {
+  position: relative;
+  border-radius: 17px;
+  border: 1px solid #000;
+  background: #fff;
+  box-shadow: 0px 4px 14.3px 6px rgba(70, 88, 251, 0.14);
+  padding: 10px;
+
+  color: #000;
+  font-weight: 600;
+}
+
+.typeMain .secondaryText {
+  position: absolute;
+  bottom: -15px;
+  transform: translateY(100%);
+
+  color: #000;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.typeMain.sizeXxxl,
+.typeMain.sizeXs {
+  height: 75px;
+  width: 300px;
+  font-size: 48px;
+}
+
+.typeMain.sizeXxxl.small,
+.typeMain.sizeXs.small {
+  font-size: 24px;
+}
+
+.typeMain.sizeXxl {
+  height: 75px;
+  width: 280px;
+  font-size: 40px;
+}
+
+.typeMain.sizeXxl.small {
+  font-size: 20px;
+  line-height: 40px;
+}
+
+.typeSecondary .mainText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 7px;
+
+  width: 200px;
+  height: 75px;
+  color: #fff;
+  border-radius: 13.5px;
+  border: 0.75px solid #fff;
+
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.typeSecondary.small .mainText {
+  font-size: 16px;
+}
+
+.typeSecondary .secondaryText {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.typeMobile .mainText {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1px;
+
+  width: 302px;
+  height: 80px;
+  border-radius: 14.291px;
+  border: 1px solid #6a75df;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+  color: #6a75df;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.typeMobile.small .mainText {
+  font-size: 20px;
+}
+
+.typeMobile .secondaryText {
+  color: #6a75df;
+  font-size: 12px;
+  font-weight: 500;
+}

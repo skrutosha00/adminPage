@@ -1,0 +1,50 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+  margin: 40px auto auto;
+  max-width: 100%;
+  border-radius: 27px;
+  padding: 20px;
+  background: radial-gradient(117.25% 117.25% at 50% 50%, #fff 0%, #e3ebf7 100%);
+  box-shadow: 0px 4px 20.2px 0px rgba(160, 158, 255, 0.42);
+}
+
+.loader {
+  height: 120px;
+}
+
+.title {
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.groupsNew {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 40px 20px;
+}
+
+.groupsFinished {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+  gap: 40px 20px;
+}
+
+.group {
+  display: flex;
+  flex-direction: column;
+  line-height: 23px;
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    font-size: 14px;
+  }
+
+  .groupsNew,
+  .groupsFinished {
+    display: flex;
+    flex-direction: column;
+  }
+}

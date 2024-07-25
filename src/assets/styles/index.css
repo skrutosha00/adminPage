@@ -1,0 +1,52 @@
+@font-face {
+  font-family: TTFirsNeue;
+  src: url(/src/assets/fonts/TTFirsNeue-Regular.ttf);
+}
+
+body {
+  font-family: TTFirsNeue;
+}
+
+input {
+  font-family: TTFirsNeue;
+}
+
+.wrapper {
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+  touch-action: manipulation;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.none {
+  display: none !important;
+}
+
+.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+.block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.no-wrap {
+  white-space: nowrap;
+}

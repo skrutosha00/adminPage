@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+
+.cards {
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+@media screen and (max-width: 1322px) {
+  .header {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    gap: 30px;
+  }
+
+  .cards {
+    width: 100%;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 978px) {
+  .cards {
+    justify-content: start;
+    gap: 70px 40px;
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .cards {
+    flex-direction: column;
+    gap: 50px;
+  }
+}

@@ -1,0 +1,41 @@
+.wrapper {
+  background-color: #e3ebf7;
+  padding: 40px 10%;
+  gap: 40px;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  max-width: 440px;
+}
+
+.header {
+  font-size: 38px;
+}
+
+.subheader {
+  font-size: 24px;
+}
+
+.link {
+  text-decoration: underline;
+  color: #5967df;
+}
+
+@media screen and (max-width: 920px) {
+  .wrapper {
+    flex-direction: column-reverse;
+    padding: 10px 0;
+  }
+
+  .text {
+    align-items: center;
+  }
+
+  .header,
+  .subheader {
+    text-align: center;
+  }
+}

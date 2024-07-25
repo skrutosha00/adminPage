@@ -1,0 +1,20 @@
+.graphs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  margin: auto;
+}
+
+.graph {
+  max-width: 100%;
+  width: 750px;
+  border-radius: 27px;
+  padding: 20px;
+  background: radial-gradient(117.25% 117.25% at 50% 50%, #fff 0%, #e3ebf7 100%);
+  box-shadow: 0px 4px 20.2px 0px rgba(160, 158, 255, 0.42);
+}
+
+.loader {
+  height: 120px;
+}

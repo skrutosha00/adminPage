@@ -1,0 +1,90 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  cursor: pointer;
+}
+
+.avatar {
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.fields {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.fields > div {
+  max-width: 100%;
+}
+
+.tgLink {
+  display: block;
+  overflow: hidden;
+}
+
+.tgLink:hover {
+  text-decoration: underline;
+}
+
+.sizeM {
+  width: 260px;
+  min-height: 295px;
+  border-radius: 27px;
+  padding: 20px;
+}
+
+.sizeM .avatar {
+  width: 80px;
+  height: 80px;
+}
+
+.sizeM .name {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+.sizeM .rank {
+  margin-bottom: 15px;
+}
+
+.sizeS {
+  width: 220px;
+  min-height: 250px;
+  border-radius: 20px;
+  padding: 15px;
+}
+
+.sizeS .avatar {
+  width: 60px;
+  height: 60px;
+}
+
+.sizeS .name {
+  margin-bottom: 5px;
+}
+
+.typeMain {
+  background-color: #fff;
+  box-shadow: 0px 6px 23.3px 0px rgba(160, 158, 255, 0.62);
+}
+
+.typeMain .tgLink {
+  color: black;
+}
+
+.typeSecondary {
+  color: #fff;
+  border-radius: 21.657px;
+  border: 2.406px solid #fff;
+  background: #6a75df;
+  box-shadow: 0px 4.813px 18.689px 0px rgba(160, 158, 255, 0.62);
+}
+
+.typeSecondary .avatar {
+  background-color: white;
+}

@@ -1,0 +1,54 @@
+.wrapper {
+  width: 530px;
+  max-width: 100%;
+  margin: 55px auto auto;
+}
+
+.title {
+  color: #000;
+  line-height: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: auto auto 18px;
+  text-align: center;
+}
+
+.options {
+  display: flex;
+  justify-content: space-between;
+}
+
+.option {
+  width: 20%;
+  height: 30px;
+  background-color: white;
+  border-radius: 50px;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.wide {
+  width: 46.33%;
+}
+
+.chosen {
+  background: #6a75df;
+  color: white;
+}
+
+@media screen and (max-width: 480px) {
+  .options {
+    flex-wrap: wrap;
+    gap: 15px 0;
+  }
+
+  .option {
+    width: 45%;
+  }
+
+  .title {
+    font-size: 16px;
+  }
+}

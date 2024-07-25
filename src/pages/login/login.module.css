@@ -1,0 +1,106 @@
+.wrapper {
+  background: #fefefe;
+  padding: 20px 0;
+  gap: 100px;
+  min-height: 100vh;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: max-content;
+  border-radius: 27px;
+  background-color: #fff;
+  border: 1px solid #0f0f0f;
+  box-shadow: 0px 6px 23.3px 0px rgba(160, 158, 255, 0.62);
+  padding: 64px 35px;
+}
+
+.title {
+  color: #6a75df;
+  font-size: 80px;
+  font-weight: 500;
+}
+
+.cardTitle {
+  font-size: 28px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+
+.tgButton {
+  width: max-content;
+}
+
+.testLoginButton {
+  width: 233px;
+  height: 40px;
+  background-color: #54a9eb;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 17px;
+}
+
+.icons {
+  margin-bottom: 40px;
+  gap: 35px;
+}
+
+.icons img {
+  width: 55px;
+  height: 55px;
+}
+
+.tree {
+  width: 650px;
+  max-width: 95%;
+}
+
+@media screen and (max-width: 1280px) {
+  .tree {
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .tree {
+    width: 650px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .wrapper {
+    justify-content: space-between;
+    gap: 25px;
+    padding: 40px 0 10px;
+  }
+
+  .title {
+    font-size: 50px;
+  }
+
+  .right {
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .card {
+    border-radius: 15px;
+    padding: 15px;
+  }
+}

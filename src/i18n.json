@@ -1,0 +1,302 @@
+{
+  "first_line_count": {
+    "en": "First line size",
+    "ru": "Размер команды",
+    "es": "Tamaño de la primera línea"
+  },
+  "structure_count": {
+    "en": "Structure size",
+    "ru": "Размер структуры",
+    "es": "Tamaño de la estructura"
+  },
+  "ref_bonuses_count": {
+    "en": "Referral bonuses",
+    "ru": "Реферальные бонусы",
+    "es": "Bonos de referencia"
+  },
+  "rank_0": {
+    "en": "👤 User",
+    "ru": "👤 Пользователь",
+    "es": "👤 Usuario"
+  },
+  "rank_1": {
+    "en": "👨‍💻 Player",
+    "ru": "👨‍💻 Игрок",
+    "es": "👨‍💻 Jugador"
+  },
+  "rank_2": {
+    "en": "🌫️ Chintz Guide",
+    "ru": "🌫️ Ситцевый Проводник",
+    "es": "🌫️ Chinza Guía"
+  },
+  "rank_3": {
+    "en": "📄 Paper Guide",
+    "ru": "📄 Бумажный Проводник",
+    "es": "📄 Papel Guía"
+  },
+  "rank_4": {
+    "en": "💼 Leather Guide",
+    "ru": "💼 Кожаный Проводник",
+    "es": "💼 Cuero Guía"
+  },
+  "rank_5": {
+    "en": "🧶 Linen Guide",
+    "ru": "🧶 Льняной Проводник",
+    "es": "🧶 Lino Guía"
+  },
+  "card_field_first_line": {
+    "en": "Team",
+    "ru": "Команда",
+    "es": "Equipo"
+  },
+  "card_field_structure": {
+    "en": "Structure",
+    "ru": "Структура",
+    "es": "Estructura"
+  },
+  "welcome": {
+    "en": "Welcome!",
+    "ru": "Добро пожаловать!",
+    "es": "¡Bienvenido!"
+  },
+  "projectName": {
+    "en": "Great admin page",
+    "ru": "Великая админка",
+    "es": "Gran página de administración"
+  },
+  "searchUserPlaceholder": {
+    "en": "Enter name...",
+    "ru": "Введите имя...",
+    "es": "Ingrese el nombre..."
+  },
+  "noUserFound": {
+    "en": "User not found 😣",
+    "ru": "Пользователь не найден 😣",
+    "es": "Usuario no encontrado 😣"
+  },
+  "all": {
+    "en": "All",
+    "ru": "Все",
+    "es": "Todos"
+  },
+  "active": {
+    "en": "Active",
+    "ru": "Активные",
+    "es": "Activo"
+  },
+  "inactive": {
+    "en": "Inactive",
+    "ru": "Неактивные",
+    "es": "Inactivo"
+  },
+  "errorHeader": {
+    "en": "Unknown error",
+    "ru": "Неизвестная ошибка",
+    "es": "Error desconocido"
+  },
+  "errorText": {
+    "en": "Something went wrong. Please try again or try later.",
+    "ru": "Что-то пошло не так. Повторите попытку или попробуйте позже.",
+    "es": "Algo salió mal. Inténtalo de nuevo o inténtalo más tarde."
+  },
+  "errorLink": {
+    "en": "Go to the main page",
+    "ru": "Перейти на главную страницу",
+    "es": "Ir a la página principal"
+  },
+  "language": {
+    "en": "Language",
+    "ru": "Язык",
+    "es": "Idioma"
+  },
+  "ru": {
+    "en": "Russian",
+    "ru": "Русский",
+    "es": "Ruso"
+  },
+  "es": {
+    "en": "Spanish",
+    "ru": "Испанский",
+    "es": "Español"
+  },
+  "en": {
+    "en": "English",
+    "ru": "Английский",
+    "es": "Inglés"
+  },
+  "pool": {
+    "en": "Bot",
+    "ru": "Бот",
+    "es": "Piscina"
+  },
+  "noPoolFound": {
+    "en": "Bot not found 😣",
+    "ru": "Бот не найден 😣",
+    "es": "Piscina no encontrada 😣"
+  },
+  "searchPoolPlaceholder": {
+    "en": "Enter bot name...",
+    "ru": "Введите название бота...",
+    "es": "Ingrese el nombre de la piscina..."
+  },
+  "loading": {
+    "en": "Loading...",
+    "ru": "Загрузка...",
+    "es": "Cargando..."
+  },
+  "error": {
+    "en": "Error",
+    "ru": "Ошибка",
+    "es": "Error"
+  },
+  "choosePoolTitle": {
+    "en": "Choose a bot",
+    "ru": "Выберите бота",
+    "es": "Elige una piscina"
+  },
+  "choosePoolText": {
+    "en": "To get started, select a bot from the list below. You can change your choice at any time.",
+    "ru": "Для начала выберите бота из списка ниже. Вы сможете поменять свой выбор в любое время.",
+    "es": "Para comenzar, seleccione una piscina de la lista a continuación. Puede cambiar su elección en cualquier momento."
+  },
+  "logout": {
+    "en": "Logout",
+    "ru": "Выйти",
+    "es": "Cerrar sesión"
+  },
+  "wrongPoolError": {
+    "en": "You are not a player of the selected bot. Please select another bot in the settings above",
+    "ru": "Похоже, Вы не начали игру в этом боте. Пожалуйста, выберите другого бота в настройках выше",
+    "es": "No eres miembro de la piscina seleccionada. Seleccione otra piscina en la configuración anterior"
+  },
+  "main": {
+    "en": "Main",
+    "ru": "Главная",
+    "es": "Principal"
+  },
+  "stat": {
+    "en": "Statistics",
+    "ru": "Статистика",
+    "es": "Estadística"
+  },
+  "tokenGraphTitle": {
+    "en": "Total ROD tokens entered into the bot",
+    "ru": "Всего введено токенов РОД в бот",
+    "es": "Total de tokens ROD introducidos en el bot"
+  },
+  "userGraphTitle": {
+    "en": "Users attracted to the pool by you",
+    "ru": "Привлечено вами пользователей в бот",
+    "es": "Usuarios atraídos al grupo por usted"
+  },
+  "interval": {
+    "en": "Interval (in days)",
+    "ru": "Интервал (в днях)",
+    "es": "Intervalo (en días)"
+  },
+  "botName": {
+    "en": "Bot level",
+    "ru": "Уровень бота",
+    "es": "Nivel de bot"
+  },
+  "viewIn": {
+    "en": "View in",
+    "ru": "Посмотреть в",
+    "es": "Ver en"
+  },
+  "firstLine": {
+    "en": "First line",
+    "ru": "Первая линия",
+    "es": "Primera línea"
+  },
+  "structure": {
+    "en": "Structure",
+    "ru": "Структура",
+    "es": "Estructura"
+  },
+  "commonStatisticsTitle": {
+    "en": "Common statistics in the bot",
+    "ru": "Общая статистика в боте",
+    "es": "Estadísticas comunes en el bot"
+  },
+  "newPlayers": {
+    "en": "🤓 New players",
+    "ru": "🤓 Новых игроков:",
+    "es": "🤓 Nuevos jugadores:"
+  },
+  "publicPlayers": {
+    "en": "🙌 Public players",
+    "ru": "🙌 Переливов:",
+    "es": "🙌 Jugadores públicos:"
+  },
+  "referalPlayers": {
+    "en": "🤝 Referral players",
+    "ru": "🤝 Пришли по ссылке:",
+    "es": "🤝 Jugadores de referencia:"
+  },
+  "newGamesOpened": {
+    "en": "🎉 New games opened",
+    "ru": "🎉 Открыто новых игр:",
+    "es": "🎉 Nuevos juegos abiertos:"
+  },
+  "gamesFinished": {
+    "en": "🛎 Games finished",
+    "ru": "🛎 Завершено игр:",
+    "es": "🛎 Juegos terminados:"
+  },
+  "totalMoves": {
+    "en": "🎲 Total moves",
+    "ru": "🎲 Ходов:",
+    "es": "🎲 Movimientos totales:"
+  },
+  "rodPayouts": {
+    "en": "🏆 ROD payouts",
+    "ru": "🏆 Выплачено игрокам ROD:",
+    "es": "🏆 Pagos de ROD:"
+  },
+  "newGamesTitle": {
+    "en": "New games in the bot for today",
+    "ru": "Новые игры в боте за сегодня",
+    "es": "Nuevos juegos en el bot para hoy"
+  },
+  "newGamesText": {
+    "en": "New games",
+    "ru": "Новых игр",
+    "es": "Nuevos juegos"
+  },
+  "finishedGamesTitle": {
+    "en": "Finished games in the bot for today",
+    "ru": "Завершенные игры в боте за сегодня",
+    "es": "Juegos terminados en el bot para hoy"
+  },
+  "finishedGamesText": {
+    "en": "Finished games",
+    "ru": "Завершенных игр",
+    "es": "Juegos terminados"
+  },
+  "tgChat": {
+    "en": "Telegram chat",
+    "ru": "Чат в Telegram",
+    "es": "Chat de Telegram"
+  },
+  "instructions": {
+    "en": "Instructions to the game",
+    "ru": "Инструкции к игре",
+    "es": "Instrucciones para el juego"
+  },
+  "officialSite": {
+    "en": "Official site",
+    "ru": "Официальный сайт",
+    "es": "Sitio oficial"
+  },
+  "devChannel": {
+    "en": "Developer channel",
+    "ru": "Канал разработчиков",
+    "es": "Canal de desarrollador"
+  },
+  "testLoginButton": {
+    "en": "Login with test user",
+    "ru": "Войти тестовым пользователем",
+    "es": "Iniciar sesión con el usuario de prueba"
+  }
+}

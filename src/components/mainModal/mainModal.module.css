@@ -1,0 +1,64 @@
+.header {
+  gap: 20px;
+}
+
+.cards {
+  gap: 20px;
+}
+
+.firstLine {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 220px);
+  justify-content: center;
+  gap: 40px;
+
+  margin: 30px auto auto;
+  max-width: 100%;
+}
+
+.loader {
+  width: max-content;
+  margin: 120px auto auto;
+}
+
+@media screen and (max-width: 1240px) {
+  .header {
+    flex-direction: column-reverse;
+  }
+
+  .firstLine {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    flex-direction: row;
+  }
+
+  .cards {
+    width: 220px;
+    flex-direction: column;
+  }
+
+  .profile {
+    width: 220px;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .header {
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .firstLine {
+    grid-template-columns: repeat(auto-fill, 260px);
+  }
+
+  .loader {
+    margin: 40px auto auto;
+  }
+}

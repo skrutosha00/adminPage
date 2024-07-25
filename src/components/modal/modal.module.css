@@ -1,0 +1,131 @@
+.modal {
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+
+  width: 80vw;
+  max-width: 1140px;
+  height: 85vh;
+  border-radius: 44.064px;
+  border: 3px solid #fff;
+  background: #6a75df;
+  box-shadow: 0px 4.299px 27.8px 12px rgba(255, 255, 255, 0.5);
+  overflow-y: hidden;
+}
+
+.modal.invisible {
+  animation: outAnimation 0.3s ease;
+  pointer-events: none;
+  animation-fill-mode: forwards;
+}
+
+.modal.visible {
+  animation: inAnimation 0.3s ease;
+  animation-fill-mode: forwards;
+}
+
+.closeImage {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+  cursor: pointer;
+
+  width: 27px;
+  height: 27px;
+}
+
+.backImage {
+  position: absolute;
+  top: 62px;
+  left: 24px;
+  cursor: pointer;
+
+  width: 27px;
+  height: 27px;
+}
+
+.overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  width: 100dvw;
+  height: 100dvh;
+}
+
+.overlay.invisible {
+  backdrop-filter: blur(0px);
+  pointer-events: none;
+}
+
+.overlay.visible {
+  backdrop-filter: blur(10px);
+}
+
+@media screen and (max-width: 480px) {
+  .modal {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+
+    width: 100vw;
+    height: 85vh;
+
+    border-radius: 35px 35px 0px 0px;
+    background: #fff;
+    box-shadow: 0px 0px 21.7px 3px rgba(106, 117, 223, 0.3);
+  }
+
+  .modal.invisible {
+    transform: translateY(-100%);
+    animation: outAnimationMobile 0.3s ease;
+    animation-fill-mode: forwards;
+  }
+
+  .modal.visible {
+    transform: translateY(0);
+    animation: inAnimationMobile 0.3s ease;
+    animation-fill-mode: forwards;
+  }
+}
+
+@keyframes inAnimation {
+  0% {
+    opacity: 0;
+    top: 60%;
+  }
+  100% {
+    opacity: 1;
+    top: 50%;
+  }
+}
+
+@keyframes outAnimation {
+  0% {
+    opacity: 1;
+    top: 50%;
+  }
+  100% {
+    opacity: 0;
+    top: 60%;
+  }
+}
+
+@keyframes inAnimationMobile {
+  0% {
+    transform: translateY(100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@keyframes outAnimationMobile {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}

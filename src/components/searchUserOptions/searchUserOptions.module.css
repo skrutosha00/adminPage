@@ -1,0 +1,60 @@
+.options {
+  position: absolute;
+  left: 0;
+  top: 48px;
+  width: 100%;
+  z-index: 5;
+  min-height: 60px;
+  max-height: 50vh;
+  background: white;
+  border-radius: 25px;
+  border: 0.743px solid #000;
+  overflow-y: hidden;
+}
+
+.loader {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.errorMessage {
+  text-align: center;
+  line-height: 80px;
+  font-size: 18px;
+}
+
+.visible {
+  animation: inAnimation 0.3s ease;
+  animation-fill-mode: forwards;
+}
+
+.hidden {
+  animation: outAnimation 0.3s ease;
+  animation-fill-mode: forwards;
+}
+
+@keyframes inAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes outAnimation {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .options {
+    font-size: 14px;
+  }
+}

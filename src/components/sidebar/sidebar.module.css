@@ -1,0 +1,84 @@
+.wrapper {
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: 3;
+
+  width: 100vw;
+  max-width: 600px;
+  height: 100%;
+}
+
+.sidebar {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+}
+
+.sidebar.invisible {
+  animation: outAnimation 0.3s ease;
+  animation-fill-mode: forwards;
+  pointer-events: none;
+}
+
+.sidebar.visible {
+  animation: inAnimation 0.3s ease;
+  animation-fill-mode: forwards;
+}
+
+.overlay {
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  width: 100vw;
+  height: 100vh;
+  transition: backdrop-filter 0.3s ease;
+}
+
+.overlay.invisible {
+  backdrop-filter: brightness(100%);
+  pointer-events: none;
+}
+
+.overlay.visible {
+  backdrop-filter: brightness(50%);
+}
+
+.back {
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  cursor: pointer;
+
+  width: 30px;
+  height: 25px;
+}
+
+.content {
+  padding-top: 60px;
+}
+
+@keyframes inAnimation {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes outAnimation {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .back {
+    left: 5%;
+  }
+}

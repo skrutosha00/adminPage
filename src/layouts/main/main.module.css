@@ -1,0 +1,11 @@
+.wrapper {
+  background-color: #e3ebf7;
+}
+
+.main {
+  width: 90%;
+  margin: auto;
+  max-width: 1280px;
+  min-height: 80vh;
+  padding-bottom: 40px;
+}
