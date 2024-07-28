@@ -25,24 +25,24 @@
     "es": "👨‍💻 Jugador"
   },
   "rank_2": {
-    "en": "🌫️ Chintz Guide",
-    "ru": "🌫️ Ситцевый Проводник",
-    "es": "🌫️ Chinza Guía"
+    "en": "🥉 Bronze Status",
+    "ru": "🥉 Бронзовый Статус",
+    "es": "🥉 Estado de bronce"
   },
   "rank_3": {
-    "en": "📄 Paper Guide",
-    "ru": "📄 Бумажный Проводник",
-    "es": "📄 Papel Guía"
+    "en": "🥈 Silver Status",
+    "ru": "🥈 Серебряный Статус",
+    "es": "🥈 Estado de plata"
   },
   "rank_4": {
-    "en": "💼 Leather Guide",
-    "ru": "💼 Кожаный Проводник",
-    "es": "💼 Cuero Guía"
+    "en": "🥇 Gold Status",
+    "ru": "🥇 Золотой Статус",
+    "es": "🥇 Estado de oro"
   },
   "rank_5": {
-    "en": "🧶 Linen Guide",
-    "ru": "🧶 Льняной Проводник",
-    "es": "🧶 Lino Guía"
+    "en": "🏆 Platinum Status",
+    "ru": "🏆 Платиновый Статус",
+    "es": "🏆 Estado de platino"
   },
   "card_field_first_line": {
     "en": "Team",
