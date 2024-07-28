@@ -3,9 +3,9 @@ export const MAIN_USER = {
   first_name: "Сергей",
   last_name: "Су",
   username: "newtyping",
-  first_line_count: 6,
-  structure_count: 7,
-  ref_bonuses_count: 0.04,
+  first_line_count: 10,
+  structure_count: 43,
+  ref_bonuses_count: 42.5,
   rank: 5
 };
 

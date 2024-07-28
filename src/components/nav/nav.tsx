@@ -20,7 +20,7 @@ export default function Nav() {
     <header className={styles.nav}>
       <div className={styles.inner}>
         <div className={styles.links}>
-          <Link to={`/${ROUTES.DEFAULT}`}>{i18n.main[lang]}</Link>
+          <Link to={`/${ROUTES.DEFAULT}`}>{i18n.structure[lang]}</Link>
           <Link to={`/${ROUTES.STAT}`}>{i18n.stat[lang]}</Link>
         </div>
 

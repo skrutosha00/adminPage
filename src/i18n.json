@@ -129,16 +129,6 @@
     "ru": "Бот",
     "es": "Piscina"
   },
-  "noPoolFound": {
-    "en": "Bot not found 😣",
-    "ru": "Бот не найден 😣",
-    "es": "Piscina no encontrada 😣"
-  },
-  "searchPoolPlaceholder": {
-    "en": "Enter bot name...",
-    "ru": "Введите название бота...",
-    "es": "Ingrese el nombre de la piscina..."
-  },
   "loading": {
     "en": "Loading...",
     "ru": "Загрузка...",
@@ -149,25 +139,10 @@
     "ru": "Ошибка",
     "es": "Error"
   },
-  "choosePoolTitle": {
-    "en": "Choose a bot",
-    "ru": "Выберите бота",
-    "es": "Elige una piscina"
-  },
-  "choosePoolText": {
-    "en": "To get started, select a bot from the list below. You can change your choice at any time.",
-    "ru": "Для начала выберите бота из списка ниже. Вы сможете поменять свой выбор в любое время.",
-    "es": "Para comenzar, seleccione una piscina de la lista a continuación. Puede cambiar su elección en cualquier momento."
-  },
   "logout": {
     "en": "Logout",
     "ru": "Выйти",
     "es": "Cerrar sesión"
-  },
-  "wrongPoolError": {
-    "en": "You are not a player of the selected bot. Please select another bot in the settings above",
-    "ru": "Похоже, Вы не начали игру в этом боте. Пожалуйста, выберите другого бота в настройках выше",
-    "es": "No eres miembro de la piscina seleccionada. Seleccione otra piscina en la configuración anterior"
   },
   "main": {
     "en": "Main",
@@ -180,13 +155,13 @@
     "es": "Estadística"
   },
   "tokenGraphTitle": {
-    "en": "Total ROD tokens entered into the bot",
-    "ru": "Всего введено токенов РОД в бот",
-    "es": "Total de tokens ROD introducidos en el bot"
+    "en": "Total tokens entered into the project",
+    "ru": "Всего введено токенов в проект",
+    "es": "Total de tokens introducidos en el bot"
   },
   "userGraphTitle": {
-    "en": "Users attracted to the pool by you",
-    "ru": "Привлечено вами пользователей в бот",
+    "en": "Users attracted by you",
+    "ru": "Привлечено вами пользователей",
     "es": "Usuarios atraídos al grupo por usted"
   },
   "interval": {
@@ -195,8 +170,8 @@
     "es": "Intervalo (en días)"
   },
   "botName": {
-    "en": "Bot level",
-    "ru": "Уровень бота",
+    "en": "Project level",
+    "ru": "Уровень проекта",
     "es": "Nivel de bot"
   },
   "viewIn": {
@@ -215,9 +190,9 @@
     "es": "Estructura"
   },
   "commonStatisticsTitle": {
-    "en": "Common statistics in the bot",
-    "ru": "Общая статистика в боте",
-    "es": "Estadísticas comunes en el bot"
+    "en": "Common statistics in the project",
+    "ru": "Общая статистика в проекте",
+    "es": "Estadísticas comunes en el project"
   },
   "newPlayers": {
     "en": "🤓 New players",
@@ -250,14 +225,14 @@
     "es": "🎲 Movimientos totales:"
   },
   "rodPayouts": {
-    "en": "🏆 ROD payouts",
-    "ru": "🏆 Выплачено игрокам ROD:",
-    "es": "🏆 Pagos de ROD:"
+    "en": "🏆 Total payouts:",
+    "ru": "🏆 Выплачено игрокам:",
+    "es": "🏆 Pagos:"
   },
   "newGamesTitle": {
-    "en": "New games in the bot for today",
-    "ru": "Новые игры в боте за сегодня",
-    "es": "Nuevos juegos en el bot para hoy"
+    "en": "New games in the project for today",
+    "ru": "Новые игры в проекте за сегодня",
+    "es": "Nuevos juegos en el project para hoy"
   },
   "newGamesText": {
     "en": "New games",
@@ -265,9 +240,9 @@
     "es": "Nuevos juegos"
   },
   "finishedGamesTitle": {
-    "en": "Finished games in the bot for today",
-    "ru": "Завершенные игры в боте за сегодня",
-    "es": "Juegos terminados en el bot para hoy"
+    "en": "Finished games in the project for today",
+    "ru": "Завершенные игры в проекте за сегодня",
+    "es": "Juegos terminados en el project para hoy"
   },
   "finishedGamesText": {
     "en": "Finished games",
@@ -280,9 +255,9 @@
     "es": "Chat de Telegram"
   },
   "instructions": {
-    "en": "Instructions to the game",
-    "ru": "Инструкции к игре",
-    "es": "Instrucciones para el juego"
+    "en": "Instructions to the project",
+    "ru": "Инструкции к проекту",
+    "es": "Instrucciones para el project"
   },
   "officialSite": {
     "en": "Official site",
