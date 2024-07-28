@@ -1,4 +1,4 @@
-import { TLang } from "./types";
+import { TLang } from "@/services/types";
 
 export const HOST_PATH = "/";
 

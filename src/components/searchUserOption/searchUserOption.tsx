@@ -6,8 +6,8 @@ import getDefaultAvatar from "@/utils/getDefaultAvatar";
 export default function SearchOption({ user }: { user: TSearchUser }) {
   const { addToHistory } = useActions();
 
-  const photoBytes = useGetUserPhotoQuery({ id: user.id }).data;
-  const photoUrl = photoBytes ? `data:image/png;base64,${photoBytes}` : getDefaultAvatar(user.id);
+  const photoLink = useGetUserPhotoQuery({ id: user.id }).data;
+  const photo = photoLink ?? getDefaultAvatar(user.id);
 
   function clickHandler() {
     addToHistory(user.id);
@@ -20,7 +20,7 @@ export default function SearchOption({ user }: { user: TSearchUser }) {
         {user.first_name} {user.last_name}
       </div>
       <div className={styles.avatar}>
-        <img src={photoUrl} alt="avatar" />
+        <img src={photo} alt="avatar" />
       </div>
     </div>
   );

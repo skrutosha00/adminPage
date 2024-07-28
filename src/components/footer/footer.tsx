@@ -3,7 +3,7 @@ import i18n from "@/i18n.json";
 import { useAppSelector } from "@/hooks/useAppSelector";
 import { langSelector } from "@/services/selectors";
 
-import logo from "@/assets/images/logo.svg";
+import logo from "@/assets/images/logo_white.svg";
 import tgIcon from "@/assets/images/tg_footer_icon.svg";
 import docIcon from "@/assets/images/doc_footer_icon.svg";
 import globeIcon from "@/assets/images/globe_footer_icon.svg";

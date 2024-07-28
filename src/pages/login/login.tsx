@@ -11,7 +11,7 @@ import { useAppSelector } from "@/hooks/useAppSelector";
 import { langSelector } from "@/services/selectors";
 
 const testUserData = {
-  id: 1,
+  id: 431152718,
   first_name: "Сергей Су",
   username: "newtyping",
   photo_url: "https://i.pinimg.com/originals/1a/7f/2e/1a7f2e7e2d1f5e2f2c4c9e4e0d7e3e4d.jpg",

@@ -21,14 +21,13 @@ export default function Profile({ userDBInfo, type = "main" }: TProps) {
   const typeClass = getParamClass("type", type);
   const loaderWidth = type === "main" ? 170 : 145;
 
-  const { currentData: photoBytes } = useGetUserPhotoQuery(
+  const { currentData: photoLink } = useGetUserPhotoQuery(
     { id: userDBInfo?.id as number },
     {
       skip: !userDBInfo?.id
     }
   );
-  const photoUrl =
-    !!userDBInfo && !!photoBytes ? `data:image/png;base64,${photoBytes}` : getDefaultAvatar(userDBInfo?.id || 0);
+  const photoUrl = !!userDBInfo && photoLink ? photoLink : getDefaultAvatar(userDBInfo?.id || 0);
 
   function TextElem(text: string | undefined, extraClass?: string) {
     return text ? <div className={extraClass}>{parse(text)}</div> : <TextLoader width={loaderWidth} height={20} />;

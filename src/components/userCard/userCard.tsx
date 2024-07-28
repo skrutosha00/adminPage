@@ -29,8 +29,8 @@ export default function UserCard({ user, type = "main", size = "m" }: TProps) {
   const sizeClass = styles[getParamClass("size", size)];
   const typeClass = styles[getParamClass("type", type)];
 
-  const photoBytes = useGetUserPhotoQuery({ id: user.id }, { skip: !isIntersecting }).currentData;
-  const photoUrl = photoBytes ? `data:image/png;base64,${photoBytes}` : getDefaultAvatar(user.id);
+  const photoLink = useGetUserPhotoQuery({ id: user.id }, { skip: !isIntersecting }).currentData;
+  const photo = photoLink ?? getDefaultAvatar(user.id);
   const userLink = user.username ? `http://t.me/${user.username}` : `tg://user?id=${user.id}`;
 
   const cardRef = useRef<HTMLDivElement>(null);
@@ -51,7 +51,7 @@ export default function UserCard({ user, type = "main", size = "m" }: TProps) {
   return (
     <div>
       <div className={`${styles.card} ${typeClass} ${sizeClass}`} ref={cardRef} onClick={cardClickHandler}>
-        <img src={photoUrl} alt="user avatar" className={styles.avatar} />
+        <img src={photo} alt="user avatar" className={styles.avatar} />
 
         <div className={`${styles.name} bold`}>
           {user.first_name} {user.last_name}
